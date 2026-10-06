@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.idea/
+.DS_Store
+.env
+.env.local
+.env.deploy.secrets
+*.zip
+.pytest_cache/
+.ruff_cache/

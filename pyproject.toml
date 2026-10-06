@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voiceai-agent"
+version = "1.0.0"
+description = "LiveKit Inference outbound sales voice agent"
+requires-python = ">=3.10, <3.14"
+dependencies = [
+    "livekit-agents>=1.7.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.setuptools]
+py-modules = ["voice_agent"]
+
+[tool.uv]
+constraint-dependencies = ["yarl<1.24"]

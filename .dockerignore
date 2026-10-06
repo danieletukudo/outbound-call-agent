@@ -1,0 +1,15 @@
+.venv
+venv
+__pycache__
+*.pyc
+*.egg-info
+.git
+.idea
+.DS_Store
+.env
+.env.local
+.env.deploy.secrets
+*.zip
+*.md
+.pytest_cache
+.ruff_cache
